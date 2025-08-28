@@ -1,0 +1,50 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #00d8ff;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #ffcc00;
+}
